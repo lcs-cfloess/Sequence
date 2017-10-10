@@ -57,10 +57,7 @@ canvas.drawEllipse(centreX:00, centreY: 00, width: 30, height: 20 , borderWidth:
 
 canvas.drawEllipse(centreX: 15, centreY: -18, width: 40  , height: 35 )
 canvas.drawEllipse(centreX: -15, centreY: -18, width: 40  , height: 35 )
-// Where is the origin?
-canvas.drawEllipse(centreX: 0, centreY: 0, width: 5, height: 5)
-canvas.drawLine(fromX: -100, fromY: 0, toX: 100, toY: 0) // x-axis
-canvas.drawLine(fromX: 0, fromY: -100, toX: 0, toY: 100) // y-axis
+
 
 canvas.fillColor = Color.white
 canvas.drawShapesWithBorders = false
